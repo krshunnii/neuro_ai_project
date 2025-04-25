@@ -1,5 +1,12 @@
 # neuro_ai_project
 
+## 📓 Notebooks
+
+- `1_biomarker_preprocessing.ipynb` — Loads and preprocesses the stroke prediction dataset (handles missing values, encodes categorical features, and scales data).
+- `3_model_training.ipynb` — Trains a Random Forest model using preprocessed biomarkers and evaluates it using accuracy, confusion matrix, and ROC AUC.
+- `4_dca_evaluation.ipynb` — Performs Decision Curve Analysis (DCA) to assess the clinical value of the trained model predictions.
+- `5_xai_rf_shap.ipynb` — Uses SHAP to visualize and interpret how different features impact stroke predictions made by the Random Forest model.
+- `6_federated_learning_simulation.ipynb` — Simulates Federated Learning using Flower across multiple virtual hospitals, maintaining data privacy while training collaboratively.
 
 
 ## 🧠 Federated Learning Simulation Summary
